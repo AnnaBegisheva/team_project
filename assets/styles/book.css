@@ -1,0 +1,42 @@
+.bookSection__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookSection__imgWrapper {
+    margin-top: 20px;
+}
+
+.bookSection__title {
+    font-size: 25px;
+}
+
+.bookSection__autor {
+    margin-top: 5px;
+}
+
+.bookSection__specific {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #828282;
+}
+
+.bookSection__price {
+    font-family: "Playfair Display", Times, serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.bookSection__description {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.bookSection__readMore {
+    color: #53889D;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
