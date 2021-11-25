@@ -74,3 +74,24 @@ p {
 .footerSection__title_brighter {
     color: #53889D;
 }
+
+.sliderSection__inner {
+    margin-left: 6%;
+}
+
+.sliderSection__item {
+    margin: 5px;
+}
+
+.sliderSection__item:first-child {
+    margin-left: 0;
+}
+
+.sliderSection__content {
+    display: flex;
+    overflow-x: auto;
+}
+
+.sliderSection__content::-webkit-scrollbar {
+    display: none;
+}
