@@ -9,26 +9,31 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,600,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet" />
     <link rel="stylesheet" href="assets/styles/normalize.css">
-    <link rel="stylesheet" href="/assets/styles/common.css">
+    <link rel="stylesheet" href="assets/styles/common.css">
     <link rel="stylesheet" href="assets/styles/home.css">
 </head>
-
 
 <body>
     <header class="headerSection container">
         <div class="headerSection__inner container__row">
             <a href="#" class="headerSection__title">Home</a>
             <div class="headerSection__buttons">
-                <button class="headerSection__search"><img src="/assets/images/search.svg" Alt="Search"></button>
-                <a class="headerSection__basket"><img src="/assets/images/basket.svg" Alt="Basket"></a>
+                <button class="headerSection__search"><img src="assets/images/search.svg" Alt="Search"></button>
+                <a class="headerSection__basket"><img src="assets/images/basket.svg" Alt="Basket"></a>
             </div>
         </div>
     </header>
 
-
-
-
     <main class="container">
+
+        <section class="welcomeSection container">
+            <div class="welcomeSection__inner container__row">
+                <h1 class="welcomeSection__header">Welcome back,<br>Jessica!</h1>
+                <p class="welcomeSection__description">We’re glad to see you just <strong>16 days</strong> after<br>your
+                    last visit and can’t wait to help you<br>find your next page turner!</p>
+            </div>
+        </section>
+
         <div class="genresSection">
             <h3 class="genresSection__header">Popular Genres</h3>
             <div class="genresSection__box">
@@ -129,15 +134,31 @@
                     <a href="" class="genresSection__text">Nature</a>
                 </div>
             </div>
-
-
-
-
-
-
-
         </div>
+
     </main>
+
+    <footer class="footerSection container">
+        <nav class="footerSection__inner container__row">
+            <a href="#" class="footerSection__item">
+                <img src="assets/images/navHomeActive.svg" class="footerSection__icon" alt="Home">
+                <p class="footerSection__title footerSection__title_brighter">home</p>
+            </a>
+            <a href="#" class="footerSection__item">
+                <img src="assets/images/navBrowse.svg" class="footerSection__icon" alt="Browse">
+                <p class="footerSection__title">browse</p>
+            </a>
+            <a href="#" class="footerSection__item">
+                <img src="assets/images/navWishlist.svg" class="footerSection__icon" alt="Wishlist">
+                <p class="footerSection__title">wishlist</p>
+            </a>
+            <a href="#" class="footerSection__item">
+                <img src="assets/images/navProfile.svg" class="footerSection__icon" alt="Profile">
+                <p class="footerSection__title">profile</p>
+            </a>
+        </nav>
+    </footer>
+
 </body>
 
 </html>
