@@ -43,6 +43,10 @@ p {
     margin-right: 10px;
 }
 
+main {
+    margin-bottom: 72px;
+}
+
 .footerSection {
     position: fixed;
     bottom: 0;
