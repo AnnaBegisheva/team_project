@@ -1,0 +1,54 @@
+.genresSection {
+    width: 80%;
+    margin: auto;
+}
+
+.genresSection__header {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.genresSection__box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.genresSection__minibox {
+    display: grid;
+    justify-items: center;
+}
+
+.genresSection__icons {
+    width: 76px;
+    height: 76px;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
+}
+
+.genresSection__icons a {
+    display: block;
+}
+
+.genresSection__icons_img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.genresSection__text {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+    .genresSection__box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
