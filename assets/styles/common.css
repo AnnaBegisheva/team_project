@@ -47,6 +47,7 @@ p {
     position: fixed;
     bottom: 0;
     box-shadow: 0 -10px 10px rgb(240, 239, 239);
+    background-color: #FFFFFF;
 }
 
 .footerSection__inner {
