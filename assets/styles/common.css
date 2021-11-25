@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+}
+
+.container__row {
+    width: 88%;
+    margin: auto;
+    min-height: 48px;
+}
+
+
+.headerSection {
+    box-shadow: 0 10px 10px rgb(240, 239, 239);
+}
+
+.headerSection__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerSection__title {
+    font-family: "Montserrat", Times, serif;
+    font-weight: 700;
+    color: #4F4F4F;
+}
+
+.headerSection__search {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
