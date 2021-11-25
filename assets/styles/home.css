@@ -1,0 +1,10 @@
+.welcomeSection__header {
+    font-size: 31px;
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+
+.welcomeSection__description {
+    font-size: 16px;
+    line-height: 24px;
+}
