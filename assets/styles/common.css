@@ -47,14 +47,12 @@ p {
     position: fixed;
     bottom: 0;
     box-shadow: 0 -10px 10px rgb(240, 239, 239);
-    margin-top: 48px;
 }
 
 .footerSection__inner {
     display: flex;
     justify-content: space-around;
     padding: 12px 0 0 0;
-
 }
 
 .footerSection__item {
