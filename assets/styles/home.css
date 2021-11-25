@@ -63,3 +63,18 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+@media screen and (min-width:768px) {
+    .tablet_hidden {
+        display: none;
+    }
+
+    .welcomeSection__header {
+        font-size: 51px;
+        margin-bottom: 24px;
+    }
+
+    .welcomeSection__description {
+        font-size: 24px;
+    }
+}
