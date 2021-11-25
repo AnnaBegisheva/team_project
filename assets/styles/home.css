@@ -163,7 +163,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .tablet_hidden {
+    .desktop_hidden {
         display: none;
     }
 
