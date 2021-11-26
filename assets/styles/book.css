@@ -8,6 +8,10 @@
     margin-top: 20px;
 }
 
+.bookSection__img {
+    width: 100%;
+}
+
 .bookSection__title {
     font-size: 6vw;
 }
@@ -52,5 +56,9 @@
 
     .bookSection__price {
         font-size: 40px;
+    }
+
+    .bookSection__imgWrapper {
+        width: 20%;
     }
 }
