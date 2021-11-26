@@ -1,17 +1,12 @@
-.genresSection {
-    width: 80%;
-    margin: auto;
-}
-
-.genresSection__header {
+.genresSection__title {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
 }
 
 .genresSection__box {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
 
@@ -27,10 +22,6 @@
     border-radius: 8px;
 }
 
-.genresSection__icons a {
-    display: block;
-}
-
 .genresSection__icons_img {
     padding-left: 20px;
     padding-top: 20px;
@@ -44,11 +35,11 @@
     text-decoration: none;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (min-width:767px) {
     .genresSection__box {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 10px;
     }
 }
