@@ -18,8 +18,9 @@
     font-size: 20px;
 }
 
-.sliderSection__bg {
+.listOne__bg, .listTwo__bg {
     border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
 }
 
 .listOne,
@@ -105,6 +106,20 @@
     position: absolute;
     left: 37px;
     bottom: 16px;
+}
+
+.sliderSection__item_author>p {
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+}
+
+.sliderSection__item_author {
+    text-decoration: none;
+}
+
+.sliderSection__avatar {
+    border-radius: 50%;
 }
 
 .genresSection {

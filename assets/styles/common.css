@@ -84,6 +84,8 @@ main {
 
 .sliderSection__item {
     margin: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sliderSection__item:first-child {
