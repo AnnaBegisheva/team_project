@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookshop</title>
+    <title>Conversations with Friends</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,600,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/styles/normalize.css">
@@ -13,22 +13,10 @@
     <link rel="stylesheet" href="/assets/styles/book.css">
 </head>
 
-<style>
-    main {
-        margin-bottom: 80px;
-    }
-
-    .bookSection__inner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-</style>
-
 <body>
     <header class="headerSection container">
         <div class="headerSection__inner container__row">
-            <a src="#" class="headerSection__title"> <img src="/assets/images/arrow back.svg" Alt="Back"></a>
+            <a href="" class="headerSection__title"> <img src="/assets/images/arrow_back.svg" Alt="Back"></a>
             <div class="headerSection__buttons">
                 <button class="headerSection__search"><img src="/assets/images/search.svg" Alt="Search"></button>
                 <a class="headerSection__basket"><img src="/assets/images/basket.svg" Alt="Basket"></a>
@@ -39,34 +27,42 @@
     <main>
         <section class="bookSection container">
             <div class="bookSection__inner container__row">
-                <div>
-                    <img src="/assets/images/Conversations.jpg">
+                <div class="bookSection__imgWrapper">
+                    <img src="/assets/images/Conversations.jpg" class="bookSection__img">
                 </div>
-                <h1>Conversations with Friends</h1>
-                <p>Sally Rooney</p>
-                <p>Paperback | 2nd Edition</p>
-                <p>€12.90</p>
-                <p>A blurb about the book goes here. A few sentences that are nice and easy to read. Like one that’s
-                    enticing... <span>read more</span></p>
+                <h1 class="bookSection__title">Conversations with Friends</h1>
+                <p class="bookSection__autor">Sally Rooney</p>
+                <p class="bookSection__specific">Paperback | 2nd Edition</p>
+                <p class="bookSection__price">€12.90</p>
+                <p class="bookSection__description">A blurb about the book goes here. A few sentences that are nice and
+                    easy to read. Like one that’s
+                    enticing... <button class="bookSection__readMore">read more</button></p>
+                <div class="bookSection__buttons">
+                    <button class="bookSection__button">ADD TO CART</button>
+                    <button class="bookSection__button bookSection__button_peach">WISHLIST</button>
+                </div>
+                <p class="bookSection__specific">Publisher: Faber & Faber<br>
+                    Date Published: 1 March 2018<br>
+                    ISBN13: 9780571333134</p>
             </div>
         </section>
     </main>
     <footer class="footerSection container">
         <nav class="footerSection__inner container__row">
-            <a src="#" class="footerSection__item">
-                <img src="/assets/images/navHomeActive.svg" class="footerSection__icon">
+            <a href="#" class="footerSection__item">
+                <img src="/assets/images/navHomeActive.svg" class="footerSection__icon" alt="Home">
                 <p class="footerSection__title footerSection__title_brighter">home</p>
             </a>
-            <a src="#" class="footerSection__item">
-                <img src="/assets/images/navBrowse.svg" class="footerSection__icon">
+            <a href="#" class="footerSection__item">
+                <img src="/assets/images/navBrowse.svg" class="footerSection__icon" alt="Browse">
                 <p class="footerSection__title">browse</p>
             </a>
-            <a src="#" class="footerSection__item">
-                <img src="/assets/images/navWishlist.svg" class="footerSection__icon">
+            <a href="#" class="footerSection__item">
+                <img src="/assets/images/navWishlist.svg" class="footerSection__icon" alt="Wishlist">
                 <p class="footerSection__title">wishlist</p>
             </a>
-            <a src="#" class="footerSection__item">
-                <img src="/assets/images/navProfile.svg" class="footerSection__icon">
+            <a href="#" class="footerSection__item">
+                <img src="/assets/images/navProfile.svg" class="footerSection__icon" alt="Profile">
                 <p class="footerSection__title">profile</p>
             </a>
         </nav>
