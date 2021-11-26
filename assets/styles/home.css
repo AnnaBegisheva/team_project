@@ -123,12 +123,7 @@
         border-radius: 50%;
     }
 
-    .genresSection {
-        width: 80%;
-        margin: auto;
-    }
-
-    .genresSection__header {
+    .genresSection__title {
         font-family: 'Playfair Display', serif;
         font-size: 20px;
     }
@@ -165,15 +160,6 @@
         text-decoration: none;
     }
 
-    @media screen and (min-width:767px) {
-        .genresSection__box {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            gap: 10px;
-        }
-    }
-
     @media screen and (min-width:768px) {
         .welcomeSection__header {
             font-size: 51px;
@@ -183,6 +169,12 @@
         .welcomeSection__description {
             font-size: 24px;
             line-height: 36px;
+        }
 
+        .genresSection__box {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
         }
     }
