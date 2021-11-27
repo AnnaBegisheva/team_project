@@ -1,4 +1,5 @@
-h1, h3 {
+h1,
+h3 {
     font-family: "Playfair Display", Times, serif;
     margin: 0;
 }
@@ -86,6 +87,10 @@ main {
     margin-left: 6%;
 }
 
+.sliderSection__item > a {
+    text-decoration: none;
+}
+
 .sliderSection__item {
     margin: 5px;
     display: flex;
@@ -105,13 +110,27 @@ main {
     display: none;
 }
 
+.sliderSection__title_book {
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0;
+    max-width: 145px;
+}
+
+.sliderSection__author_light {
+    color: #4F4F4F;
+    font-size: 12px;
+    line-height: 140%;
+}
+
 @media screen and (min-width:768px) {
     .desktop_hidden {
         display: none;
     }
 
-.authorsSection__content {
-    justify-content: space-between;
-    margin-right: 6%;
-}
+    .authorsSection__content {
+        justify-content: space-between;
+        margin-right: 6%;
+    }
 }
