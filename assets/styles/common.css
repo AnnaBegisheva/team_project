@@ -1,6 +1,10 @@
-h1 {
+h1, h3 {
     font-family: "Playfair Display", Times, serif;
     margin: 0;
+}
+
+h3 {
+    padding-bottom: 5px;
 }
 
 p {
@@ -105,4 +109,9 @@ main {
     .desktop_hidden {
         display: none;
     }
+
+.authorsSection__content {
+    justify-content: space-between;
+    margin-right: 6%;
+}
 }
