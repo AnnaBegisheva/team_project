@@ -60,13 +60,58 @@
     font-weight: 600;
     margin: 4px;
     width: 70vw;
-    ;
     height: 40px;
     border-radius: 8px;
 }
 
 .bookSection__button_peach {
     background-color: #F3A492;
+}
+
+.bookSection__header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4F4F4F;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bookSection__content {
+    display: flex;
+}
+
+.bookSection__tag {
+    width: 36vw;
+    height: 2.5vh;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.bookSection__genres a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.bookSection__tag_yellow-pink {
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+}
+
+.bookSection__tag_blue-baby {
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+}
+
+.bookSection__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.bookSection__social {
+    margin-right: 20px;
+    max-width: 100%;
 }
 
 @media screen and (min-width:768px) {
@@ -88,5 +133,12 @@
 
     .bookSection__button {
         width: 300px;
+    }
+}
+
+@media screen and (min-width:420px) {
+    .bookSection__tag {
+        width: 130px;
+        height: 22px;
     }
 }
