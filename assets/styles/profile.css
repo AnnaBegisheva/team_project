@@ -52,6 +52,96 @@ h3 {
     font-weight: 700;
 }
 
+
+.favoriteSection__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.favoriteSection__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favoriteSection__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    padding-top: 5px;
+}
+
+.favoriteSection__content a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.favoriteSection__tag {
+    height: 24px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.favoriteSection__tag_first {
+    width: 79px;
+}
+
+
+.favoriteSection__tag_second {
+    width: 81px;
+}
+
+.favoriteSection__tag_third {
+    width: 123px;
+}
+
+.favoriteSection__tag_fourth {
+    width: 149px;
+}
+
+.favoriteSection__tag_fifth {
+    width: 87px;
+}
+
+.favoriteSection__tag_sixth {
+    width: 173px;
+}
+
+.favoriteSection__tag_seventh {
+    width: 102px;
+}
+
+.favoriteSection__tag_blue-baby {
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+}
+
+.favoriteSection__tag_pink-blush {
+    background: linear-gradient(90deg, #F3A492 0%, #D96F6E 100%), linear-gradient(0deg, #C4C4C4, #C4C4C4);
+}
+
+.favoriteSection__tag_yellow-pink {
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+}
+
+.favoriteSection__tag_baby-yellow {
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+}
+
+.favoriteSection__tag_blush-yellow {
+    background: linear-gradient(90deg, #BBD1D9 0%, #F2D05C 92.86%);
+}
+
+@media screen and (min-width:768px) {
+    .favoriteSection__genres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .sliderSection__count {
     font-weight: normal;
     font-size: 12px;
@@ -97,6 +187,7 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 4px;
+
 }
 
 .wishlistSection__img {
@@ -109,5 +200,4 @@ h3 {
     .wishlistSection__books {
         width: 20%;
     }
-
 }
