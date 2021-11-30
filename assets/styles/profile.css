@@ -44,3 +44,27 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+.sliderSection__count {
+    font-family: "Montserrat", Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #53889D;
+}
+
+.sliderSection__viewAll {
+    font-family: "Montserrat", Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #D96F6E;
+    display: block;
+    text-align: center;
+}
+
+.sliderSection__content {
+    margin-bottom: 25px;
+}
