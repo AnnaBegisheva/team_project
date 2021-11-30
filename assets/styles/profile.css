@@ -85,3 +85,9 @@ h3 {
     color: #53889D;
     margin-left: 5px;
 }
+
+.wishlistSection__books {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 24px;
+}
