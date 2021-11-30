@@ -176,6 +176,7 @@
 
         .sliderSection__avatar {
             height: 60px;
+            padding-bottom: 5px;
         }
 
         .sliderSection__item_author>p {
