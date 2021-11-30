@@ -64,6 +64,7 @@ h3 {
 .favoriteSection__content {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 48px;
 }
 
 .favoriteSection__text {
@@ -187,7 +188,15 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
 
+.wishlistSection__viewAll {
+    font-family: "Montserrat", Times, serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #D96F6E;
+    display: flex;
+    justify-content: center;
 }
 
 .wishlistSection__img {
@@ -196,8 +205,26 @@ h3 {
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1024px) {
+
+    .wishlistSection__content {
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
     .wishlistSection__books {
-        width: 20%;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .wishlistSection__img {
+        height: 300px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .wishlistSection__books {
+        width: 50%;
     }
 }
