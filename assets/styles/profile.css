@@ -15,6 +15,7 @@ h3 {
 }
 
 .profileSection__name {
+    text-align: center;
     margin-top: 16px;
     font-size: 32px;
 }
@@ -89,10 +90,24 @@ h3 {
 .wishlistSection__content {
     display: flex;
     gap: 8px;
+    margin-bottom: 25px;
 }
 
 .wishlistSection__books {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+.wishlistSection__img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (min-width:768px) {
+    .wishlistSection__books {
+        width: 20%;
+    }
+
 }
