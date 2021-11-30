@@ -164,6 +164,11 @@
     }
 
     @media screen and (min-width:768px) {
+
+        .welcomeSection__inner {
+            text-align: center;
+        }
+
         .welcomeSection__header {
             font-size: 51px;
             margin-bottom: 24px;
@@ -211,8 +216,8 @@
             justify-content: center;
         }
 
-    .authorsSection__content {
-        justify-content: space-between;
-        margin-right: 6%;
+        .authorsSection__content {
+            justify-content: space-between;
+            margin-right: 6%;
+        }
     }
-}
