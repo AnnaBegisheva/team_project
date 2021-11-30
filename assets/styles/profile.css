@@ -1,3 +1,8 @@
+h3 {
+    font-family: "Montserrat", Times, serif;
+    font-size: 16px;
+}
+
 .profileSection {
     margin-top: 40px;
 }
@@ -6,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .profileSection__name {
@@ -45,6 +51,7 @@
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 .favoriteSection__title {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -132,4 +139,50 @@
         flex-direction: column;
         align-items: center;
     }
+=======
+.sliderSection__count {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #53889D;
+    margin-left: 5px;
+}
+
+.sliderSection__viewAll {
+    font-family: "Montserrat", Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #D96F6E;
+    display: block;
+    text-align: center;
+}
+
+.sliderSection__content {
+    margin-bottom: 25px;
+}
+
+.wishlistSection__title {
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+
+.wishlistSection__count {
+    font-weight: normal;
+    font-size: 12px;
+    color: #53889D;
+    margin-left: 5px;
+}
+
+.wishlistSection__content {
+    display: flex;
+    gap: 8px;
+}
+
+.wishlistSection__books {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+>>>>>>> a2a254223fbddb306a3c3f8f8773a3b0ddfdf293
 }

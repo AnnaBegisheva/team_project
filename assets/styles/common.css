@@ -128,9 +128,4 @@ main {
     .desktop_hidden {
         display: none;
     }
-
-    .authorsSection__content {
-        justify-content: space-between;
-        margin-right: 6%;
-    }
 }

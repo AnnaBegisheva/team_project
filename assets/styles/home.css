@@ -40,6 +40,11 @@
         position: absolute;
         top: 73px;
         left: 15px;
+        font-family: "Montserrat", Times, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .listOne__subtitle {
@@ -183,14 +188,9 @@
             line-height: 36px;
         }
 
-        .sliderSection__item_author {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
         .sliderSection__avatar {
-            min-height: 60px;
+            height: 60px;
+            padding-bottom: 5px;
         }
 
         .sliderSection__item_author>p {
@@ -226,5 +226,18 @@
     @media screen and (min-width: 768px) and (max-width: 1290px) {
         .genresSection__content {
             row-gap: 55px;
+        }
+    }
+
+    @media screen and (min-width:830px) {
+        .sliderSection__item_author {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .authorsSection__content {
+            justify-content: space-between;
+            margin-right: 6%;
         }
     }

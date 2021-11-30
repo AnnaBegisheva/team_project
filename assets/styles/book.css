@@ -116,6 +116,17 @@
     max-width: 100%;
 }
 
+.bookSection__share {
+    margin-bottom: 32px;
+}
+
+.sliderSection__price {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D96F6E;
+}
+
 @media screen and (min-width:768px) {
     .desktop_hidden {
         display: none;
@@ -136,6 +147,16 @@
     .bookSection__button {
         width: 300px;
     }
+
+.sliderSection__inner {
+    margin: auto;
+    width: 88%;
+    text-align: center;
+}
+
+.sliderSection__content {
+    justify-content: center;
+}
 }
 
 @media screen and (min-width:420px) {
