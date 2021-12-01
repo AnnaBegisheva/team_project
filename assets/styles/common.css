@@ -106,7 +106,7 @@ p {
     display: none;
 }
 
-.sliderSection__title_book {
+.book__title {
     color: #000000;
     font-size: 16px;
     line-height: 21px;
@@ -114,7 +114,7 @@ p {
     max-width: 145px;
 }
 
-.sliderSection__author_light {
+.book__author_light {
     color: #4F4F4F;
     font-size: 12px;
     line-height: 140%;
@@ -143,4 +143,19 @@ p {
     .headerSection__search {
         margin-right: 20px;
     }
+}
+
+.book__image {
+    height: 450px;
+}
+
+.book__title {
+    font-size: 20px;
+    line-height: 31px;
+    margin: 0;
+    max-width: 300px;
+}
+
+.book__author_light {
+    font-size: 16px;
 }
