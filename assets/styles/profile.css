@@ -264,3 +264,23 @@ h3 {
         width: auto;
     }
 }
+
+@media screen and (min-width:1024px) {
+    .sliderSection__inner {
+        width: 88%;
+        margin: auto;
+    }
+
+    .sliderSection__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1034px) {
+    .sliderSection__content {
+        justify-content: center;
+    }
+}

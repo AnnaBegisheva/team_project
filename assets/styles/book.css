@@ -173,7 +173,9 @@
     .book__image_smaller {
         height: 320px;
     }
-
+    .book__price {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width:420px) {
