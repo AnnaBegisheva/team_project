@@ -234,6 +234,10 @@ h3 {
         align-items: center;
     }
 
+    .sliderSection__viewAll {
+        font-size: 20px;
+    }
+
     .wishlistSection__books {
         width: 50%;
     }
