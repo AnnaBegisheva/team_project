@@ -143,7 +143,6 @@ p {
     .headerSection__search {
         margin-right: 20px;
     }
-}
 
 .book__image {
     height: 450px;
@@ -158,4 +157,5 @@ p {
 
 .book__author_light {
     font-size: 16px;
+}
 }
