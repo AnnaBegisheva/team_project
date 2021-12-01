@@ -99,17 +99,17 @@ h3 {
     top: 46px;
 }
 
-.sliderSection__item_author>p {
+.authorsSection__itemName {
     text-align: center;
     color: #000;
     font-size: 12px;
 }
 
-.sliderSection__item_author {
+.sliderSection__item_link {
     text-decoration: none;
 }
 
-.sliderSection__avatar {
+.authorsSection__avatar {
     border-radius: 50%;
 }
 
@@ -214,13 +214,13 @@ h3 {
         height: 50px;
     }
 
-    .sliderSection__avatar {
+    .authorsSection__avatar {
         height: 90px;
         padding-bottom: 5px;
         margin-left: 10px;
     }
 
-    .sliderSection__item_author>p {
+    .authorsSection__itemName {
         font-size: 16px;
     }
 
