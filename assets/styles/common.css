@@ -24,7 +24,7 @@ p {
 }
 
 .headerSection {
-    box-shadow: 0 10px 10px rgb(240, 239, 239);
+    box-shadow: 0 4px 16px rgba(78, 55, 55, 0.15);
 }
 
 .headerSection__inner {
@@ -54,7 +54,7 @@ main {
 .footerSection {
     position: fixed;
     bottom: 0;
-    box-shadow: 0 -10px 10px rgb(240, 239, 239);
+    box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
     background-color: #FFFFFF;
 }
 
@@ -87,7 +87,7 @@ main {
     margin-left: 6%;
 }
 
-.sliderSection__item > a {
+.sliderSection__item>a {
     text-decoration: none;
 }
 
