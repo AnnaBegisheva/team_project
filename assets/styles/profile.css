@@ -2,7 +2,6 @@ h3 {
     font-family: "Montserrat", Times, serif;
     font-size: 16px;
     color: #333333;
-
 }
 
 .profileSection {
@@ -136,39 +135,34 @@ h3 {
     background: linear-gradient(90deg, #BBD1D9 0%, #F2D05C 92.86%);
 }
 
-.sliderSection__count {
+.sliderSection__count,
+.wishlistSection__count {
     font-weight: normal;
     font-size: 12px;
     line-height: 140%;
     color: #53889D;
     margin-left: 5px;
-}
-
-.sliderSection__viewAll {
-    font-family: "Montserrat", Times, serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 140%;
-    color: #D96F6E;
-    display: block;
-    text-align: center;
 }
 
 .sliderSection__content {
     margin-bottom: 25px;
 }
 
+.sliderSection__viewAll {
+    display: block;
+    text-align: center;
+}
+
+.viewAll {
+    font-family: "Montserrat", Times, serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #D96F6E;
+}
+
 .wishlistSection__title {
     margin-bottom: 16px;
     margin-top: 48px;
-}
-
-.wishlistSection__count {
-    font-weight: normal;
-    font-size: 12px;
-    color: #53889D;
-    margin-left: 5px;
 }
 
 .wishlistSection__content {
@@ -184,10 +178,6 @@ h3 {
 }
 
 .wishlistSection__viewAll {
-    font-family: "Montserrat", Times, serif;
-    font-weight: 600;
-    font-size: 12px;
-    color: #D96F6E;
     display: flex;
     justify-content: center;
 }
