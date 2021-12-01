@@ -140,4 +140,7 @@ p {
         color: #918f8f;
     }
 
+    .headerSection__search {
+        margin-right: 20px;
+    }
 }
