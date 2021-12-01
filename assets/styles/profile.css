@@ -234,12 +234,6 @@ h3 {
         align-items: center;
     }
 
-    .wishlistSection__title {
-        text-align: center;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width: 1023px) {
     .wishlistSection__books {
         width: 50%;
     }
@@ -251,12 +245,14 @@ h3 {
     .wishlistSection__books {
         gap: 13px;
     }
+
+    .wishlistSection__viewAll {
+        font-size: 20px;
+    }
 }
 
 
-@media screen and (min-width:1024px) {
-
-
+@media screen and (min-width:1190px) {
     .wishlistSection__content {
         gap: 15px;
         margin-bottom: 25px;
