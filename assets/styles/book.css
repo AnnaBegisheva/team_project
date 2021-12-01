@@ -120,7 +120,7 @@
     margin-bottom: 32px;
 }
 
-.sliderSection__price {
+.book__price {
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
@@ -156,6 +156,10 @@
         font-size: 26px;
     }
 
+    .sliderSection {
+        margin-bottom: 50px;
+    }
+
     .sliderSection__inner {
         margin: auto;
         width: 88%;
@@ -165,6 +169,11 @@
     .sliderSection__content {
         justify-content: center;
     }
+
+    .book__image_smaller {
+        height: 320px;
+    }
+
 }
 
 @media screen and (min-width:420px) {
