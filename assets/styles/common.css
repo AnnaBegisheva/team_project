@@ -135,4 +135,9 @@ p {
         display: flex;
         gap: 20px;
     }
+
+    .headerSection__title_light {
+        color: #918f8f;
+    }
+
 }
