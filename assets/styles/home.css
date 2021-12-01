@@ -178,6 +178,42 @@ h3 {
         line-height: 36px;
     }
 
+    .card__bg {
+        height: 200px;
+    }
+
+    .card__icon {
+        width: 50px;
+    }
+
+    .card__subtitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .card__title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .card__content_listOne {
+        top: 60px;
+    }
+
+    .card__number {
+        font-size: 65px;
+    }
+
+    .card__title_pink {
+        top: 82px;
+    }
+
+    .card__icon_left,
+    .card__icon_right {
+        top: 80px;
+        height: 50px;
+    }
+
     .sliderSection__avatar {
         height: 90px;
         padding-bottom: 5px;
