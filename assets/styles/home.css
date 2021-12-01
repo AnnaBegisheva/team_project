@@ -179,8 +179,9 @@ h3 {
     }
 
     .sliderSection__avatar {
-        height: 60px;
+        height: 90px;
         padding-bottom: 5px;
+        margin-left: 10px;
     }
 
     .sliderSection__item_author>p {
@@ -212,18 +213,5 @@ h3 {
 @media screen and (min-width: 768px) and (max-width: 1290px) {
     .genresSection__content {
         row-gap: 55px;
-    }
-}
-
-@media screen and (min-width:830px) {
-    .sliderSection__item_author {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .authorsSection__content {
-        justify-content: space-between;
-        margin-right: 6%;
     }
 }
