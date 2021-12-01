@@ -132,6 +132,10 @@
         display: none;
     }
 
+    h3 {
+        font-size: 30px;
+    }
+
     .bookSection__title {
         font-size: 40px;
     }
@@ -148,15 +152,19 @@
         width: 300px;
     }
 
-.sliderSection__inner {
-    margin: auto;
-    width: 88%;
-    text-align: center;
-}
+    .bookSection__header {
+        font-size: 26px;
+    }
 
-.sliderSection__content {
-    justify-content: center;
-}
+    .sliderSection__inner {
+        margin: auto;
+        width: 88%;
+        text-align: center;
+    }
+
+    .sliderSection__content {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width:420px) {
