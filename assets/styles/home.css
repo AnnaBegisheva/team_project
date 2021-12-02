@@ -226,7 +226,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(76px, 1fr));
         grid-template-rows: 1fr;
-        column-gap: 20px;
+        column-gap: 35px;
     }
 
     .genresSection__text_none {
