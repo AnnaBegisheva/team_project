@@ -240,6 +240,10 @@ h3 {
         gap: 13px;
     }
 
+    .footerDesktop {
+        margin-top: 40px;
+    }
+
 }
 
 @media screen and (max-width:1190px) {
