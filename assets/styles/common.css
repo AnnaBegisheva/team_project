@@ -125,6 +125,15 @@ p {
     line-height: 140%;
 }
 
+.book__image:hover {
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+}
+
+.book__title:hover,
+.book__author_light:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
     .mobile_hidden {
         display: none;

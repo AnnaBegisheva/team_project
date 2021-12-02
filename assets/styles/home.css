@@ -14,12 +14,16 @@
 }
 
 .card__bg {
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
 }
 
 .card {
     position: relative;
+}
+
+.card__bg:hover {
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
 }
 
 .card__subtitle {
@@ -101,12 +105,20 @@
     font-size: 12px;
 }
 
+.authorsSection__itemName:hover {
+    transform: scale(1.2);
+}
+
 .sliderSection__item_link {
     text-decoration: none;
 }
 
 .authorsSection__avatar {
     border-radius: 50%;
+}
+
+.authorsSection__avatar:hover {
+    transform: scale(1.1);
 }
 
 .genresSection {
