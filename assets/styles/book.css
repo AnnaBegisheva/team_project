@@ -68,6 +68,10 @@
     background-color: #F3A492;
 }
 
+.bookSection__button:hover {
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+}
+
 .bookSection__header {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -120,7 +124,7 @@
     margin-bottom: 32px;
 }
 
-.sliderSection{
+.sliderSection {
     margin-bottom: 65px;
 }
 
@@ -173,6 +177,7 @@
     .book__image_smaller {
         height: 320px;
     }
+
     .book__price {
         font-size: 15px;
     }

@@ -40,6 +40,10 @@ p {
     text-decoration: none;
 }
 
+.headerSection__title:hover {
+    text-decoration: underline;
+}
+
 .headerSection__search {
     padding: 0;
     border: none;
