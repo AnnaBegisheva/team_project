@@ -46,6 +46,10 @@
     background-color: transparent;
 }
 
+.bookSection__readMore:hover {
+    text-decoration: underline;
+}
+
 .bookSection__buttons {
     text-align: center;
     margin-top: 20px;
