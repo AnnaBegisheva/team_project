@@ -124,7 +124,7 @@ p {
     line-height: 140%;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .mobile_hidden {
         display: none;
     }
@@ -161,5 +161,17 @@ p {
 
     .book__author_light {
         font-size: 16px;
+    }
+
+    .footerDesktop {
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+        background-color: #FFFFFF;
+    }
+
+    .footerDesktop__inner {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 60px;
     }
 }
