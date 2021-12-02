@@ -254,6 +254,11 @@ h3 {
         font-size: 20px;
     }
 
+    .sliderSection__count,
+    .wishlistSection__count {
+        font-size: 20px;
+    }
+
     .wishlistSection {
         margin: 0;
     }
