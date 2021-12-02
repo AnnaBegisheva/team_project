@@ -285,7 +285,7 @@ h3 {
 
     .sliderSection__content::-webkit-scrollbar {
         display: flex;
-        height: 10px;
+        height: 7px;
     }
 
     .sliderSection__content::-webkit-scrollbar-track {

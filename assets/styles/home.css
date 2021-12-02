@@ -255,3 +255,20 @@ h3 {
         row-gap: 55px;
     }
 }
+
+@media screen and (min-width:1024px) {
+    .sliderSection__content::-webkit-scrollbar {
+        display: flex;
+        height: 7px;
+    }
+
+    .sliderSection__content::-webkit-scrollbar-track {
+        box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+        border-radius: 8px;
+    }
+
+    .sliderSection__content::-webkit-scrollbar-thumb {
+        background-color: #999898;
+        border-radius: 8px;
+    }
+}
