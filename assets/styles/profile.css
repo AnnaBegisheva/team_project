@@ -164,6 +164,10 @@ h3 {
     color: #D96F6E;
 }
 
+.wishlistSection {
+    margin-bottom: 95px;
+}
+
 .wishlistSection__title {
     margin-bottom: 16px;
     margin-top: 48px;
