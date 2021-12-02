@@ -236,6 +236,10 @@ h3 {
         font-size: 20px;
     }
 
+    .wishlistSection {
+        margin: 0;
+    }
+
     .wishlistSection__content {
         gap: 15px;
     }

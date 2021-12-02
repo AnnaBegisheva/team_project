@@ -220,6 +220,10 @@ h3 {
         font-size: 16px;
     }
 
+    .genresSection {
+        margin-bottom: 0;
+    }
+
     .genresSection__content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(76px, 1fr));
