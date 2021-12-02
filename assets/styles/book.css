@@ -86,10 +86,13 @@
 }
 
 .bookSection__tag {
-    width: 36vw;
-    height: 2.5vh;
+    width: 128px;
+    height: 24px;
     border-radius: 8px;
-    padding: 2px;
+}
+
+.bookSection__tag:hover {
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
 }
 
 .bookSection__genres a {
@@ -112,16 +115,20 @@
     font-size: 12px;
     font-weight: 700;
     color: white;
-    margin-top: 5px;
+    padding-top: 5px;
 }
 
-.bookSection__social {
-    margin-right: 20px;
-    max-width: 100%;
+.bookSection__box a {
+    width: 55px;
+}
+
+.bookSection__box a {
+    display: flex;
+    justify-content: center;
 }
 
 .bookSection__share {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .sliderSection {
@@ -164,6 +171,25 @@
         font-size: 26px;
     }
 
+    .bookSection__tag {
+        width: 160px;
+        height: 30px;
+    }
+
+    .bookSection__text {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .bookSection__box a {
+        width: 70px;
+    }
+
+    .bookSection__social {
+        width: 45px;
+        height: 45px;
+    }
+
     .sliderSection__inner {
         margin: auto;
         width: 88%;
@@ -183,15 +209,22 @@
     }
 }
 
-@media screen and (min-width:420px) {
+@media screen and (max-width:360px) {
     .bookSection__tag {
-        width: 130px;
-        height: 22px;
+        width: 110px;
+        height: 20px;
     }
-}
 
-@media screen and (max-width:419px) {
     .bookSection__text {
-        margin-top: 2px;
+        padding-top: 3px;
+    }
+
+    .bookSection__box a {
+        width: 46px;
+    }
+
+    .bookSection__social {
+        width: 35px;
+        height: 35px;
     }
 }
