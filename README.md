@@ -5,3 +5,4 @@
 ![image](https://user-images.githubusercontent.com/91260590/174787280-bbd62f06-8fb6-4797-9951-bd8d1af5066b.png)
 #### Используемые технологии:
 + HTML5/CSS3
+### Демо: https://8alex.github.io/team_project/ 
